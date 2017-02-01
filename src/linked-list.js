@@ -9,7 +9,7 @@ class LinkedList {
 
     append(data) {
       let node = new Node(data);
-      return node;
+      return this;
     }
 
     head() {}
