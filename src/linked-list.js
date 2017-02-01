@@ -7,7 +7,10 @@ class LinkedList {
       this._tail = null;
     }
 
-    append(data) {}
+    append(data) {
+      let node = new Node(data);
+      return node;
+    }
 
     head() {}
 
