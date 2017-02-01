@@ -9,14 +9,30 @@ class LinkedList {
 
     append(data) {
       let node = new Node(data);
+      if(this.length == 0){
+        this._head = node;
+        this._tail = node;
+      } else {
+
+      }
       return this;
     }
 
-    head() {}
+    head() {
+      if(this._head){
+        return this._head.data;
+      }
+    }
 
-    tail() {}
+    tail() {
+      if(this._tail){
+        return this._tail.data;
+      }
+    }
 
-    at(index) {}
+    at(index) {
+      
+    }
 
     insertAt(index, data) {}
 
